@@ -20,6 +20,7 @@ public class AccessFilter extends ZuulFilter{
 		String serviceId = (String) ctx.get(FilterConstants.SERVICE_ID_KEY);
 		if(serviceId.equals("item-service")) {
 			return true;
+			
 		}
 		return false;
 	}
