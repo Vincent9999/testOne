@@ -18,11 +18,10 @@ eureka:
     service-url:
       defaultZone: http://eureka1:2001/eureka,http://eureka1:2002/eureka
 #    结合云服务器才能设置其它选项
-<<<<<<< HEAD
-=======
+
 management:
   endpoints:
     web:
       exposure:
         include: refresh
->>>>>>> refs/remotes/origin1/v2
+
